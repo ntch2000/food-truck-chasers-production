@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.static("client/build"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/mern-starter",
+  process.env.MONGODB_URI || "mongodb://localhost/food-truck",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -36,7 +36,12 @@ app.get("/api/config", (req, res) => {
     success: true,
   });
 });
-
+app.get("/api/test", (req, res) => {
+    res.json({
+      name: "Bob",
+    });
+  });
+  
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client/build/index.html"));
 });
