@@ -36,12 +36,6 @@ app.get("/api/config", (req, res) => {
     success: true,
   });
 });
-app.get("/api/test", (req, res) => {
-    res.json({
-      name: "Bob",
-    });
-  });
-  
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client/build/index.html"));
 });
