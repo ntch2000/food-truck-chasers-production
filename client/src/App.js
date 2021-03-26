@@ -1,33 +1,27 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { useEffect } from "react";
-import axios from "axios";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavBar from "./components/Navbar/Navbar";
+import CitySelector from "./containers/CitySelector/CitySelector";
+import CreateTruck from "./containers/CreateTruck/CreateTruck";
+import EditTruck from "./containers/EditTruck/EditTruck";
+import Index from "./containers/Index/Index";
+import Login from "./containers/Login/Login";
+import Operator from "./containers/Operator/Operator";
+import TruckCityList from "./containers/TruckCityList/TruckCityList";
 
 function App() {
-  useEffect(() => {
-    axios.get("/api/test").then((response) => {
-      console.log(response.data);
-      alert(response.data.name);
-    });
-  }, []);
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        <Route exact path="/CitySelector" component={CitySelector} />
+        <Route exact path="/CreateTruck" component={CreateTruck} />
+        <Route exact path="/EditTruck" component={EditTruck} />
+        <Route exact path="/Index" component={Index} />
+        <Route exact path="/Login" component={Login} />
+        <Route exact path="/Operator" component={Operator} />
+        <Route exact path="/TruckCityList" component={TruckCityList} />
+      </div>
+    </Router>
   );
 }
 
