@@ -1,13 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "../Navbar/Navbar.css";
+import NavLogo from "../../assets/images/food-truck-chasers-logo-250.png"
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar-dark navbar-expand-sm navbar-#A9A9A9">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            Navbar
+          <img src={NavLogo} className="logo" alt="logo" />
           </a>
           <button
             className="navbar-toggler"
@@ -22,8 +24,8 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <NavLink className="nav-link" to="/CitySelector">
-                CitySelector
+              <NavLink className="nav-link" to="/Home">
+                Home
               </NavLink>
               <NavLink className="nav-link" to="/CreateTruck">
                 CreateTruck
