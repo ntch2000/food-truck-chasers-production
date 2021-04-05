@@ -1,0 +1,25 @@
+
+.searchContainer{
+    text-align: center;
+    padding-top: 5%;
+    text-align: center;
+    background-color:#5CE1E6;
+    border-style: Solid;
+    border-color: #FF914D;
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+input{
+    margin-bottom: 50px;
+    height: 58px;
+    width: 1000px auto;
+    border-radius: 18px;
+}
+
+
+
+
+    
+

@@ -1,0 +1,19 @@
+
+body{
+    /* background-color:#008FC1; */
+    
+        background-image: url(../../assets/images/black-and-white-buying-city-1264937.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        min-height: 100%;
+}
+
+#searchOuter{
+    border-style: solid;
+    Border-color: #FF914D;
+    border-radius: 25px;
+    width: 1200px;
+    height: 150px;
+}
