@@ -16,7 +16,7 @@ const ChaserProfile = () => {
                 src="https://www.rollingstone.com/wp-content/uploads/2018/06/the-rock-21-things-ecac6818-b25d-48d5-b9c8-baafa6e305d1.jpg?w=1024"
                 alt="the rock"
               />
-                     <h3 className="musicianName">The Rock</h3>
+                     <h3 className="profileName">The Rock</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
                 ipsum amet laborum earum rem quas a facilis reiciendis sapiente

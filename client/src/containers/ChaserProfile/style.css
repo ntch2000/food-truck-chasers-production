@@ -1,6 +1,9 @@
 .cont {
   width: 70%;
-  background-color: #5ce1e6;
+  background-color: hsl(182, 73%, 63%, 85%);
+  border-style: solid;
+  Border-color: #ff914d;
+  color: white;
   padding: 25px;
   margin-top: 75px;
   margin-bottom: 75px;
@@ -11,7 +14,8 @@
   margin-bottom: 20px;
   margin-right: 20px;
   height: 200px;
-  border: 3px solid rgb(73, 73, 73);
+  border-style: solid;
+  Border-color: #FF914D;
 }
 
 .float {
@@ -20,7 +24,7 @@
 button {
   margin: 5px;
 }
-.musicianName {
+.profileName {
   color: #ff914d;
   text-shadow: -1px -1px 0 #5ce1e6, 1px -1px 0 #5ce1e6, -1px 1px 0 #5ce1e6,
     1px 1px 0 #5ce1e6;

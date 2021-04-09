@@ -24,16 +24,14 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-<<<<<<< HEAD
             <NavLink className="nav-link" to="/ChaserProfile">
                 ChaserProfile
               </NavLink>
               <NavLink className="nav-link" to="/CitySelector">
                 CitySelector
-=======
+                </NavLink>
               <NavLink className="nav-link" to="/Home">
                 Home
->>>>>>> 48a6ac595207d171444a2f0bb067ff822441bd1c
               </NavLink>
               <NavLink className="nav-link" to="/CreateTruck">
                 CreateTruck

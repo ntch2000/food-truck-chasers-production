@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./components/Navbar/Navbar";
 import ChaserProfile from "./containers/ChaserProfile/ChaserProfile";
-import CitySelector from "./containers/CitySelector/CitySelector";
+// import CitySelector from "./containers/CitySelector/CitySelector";
 import Home from "./containers/Home/Home.jsx";
 import CreateTruck from "./containers/CreateTruck/CreateTruck";
 import EditTruck from "./containers/EditTruck/EditTruck";
@@ -16,7 +16,7 @@ function App() {
       <div>
         <NavBar />
         <Route exact path="/ChaserProfile" component={ChaserProfile} />
-        <Route exact path="/CitySelector" component={CitySelector} />
+        {/* <Route exact path="/CitySelector" component={CitySelector} /> */}
         <Route exact path="/" component={Home} />
         <Route exact path="/CreateTruck" component={CreateTruck} />
         <Route exact path="/EditTruck" component={EditTruck} />
