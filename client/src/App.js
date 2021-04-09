@@ -6,7 +6,7 @@ import Home from "./containers/Home/Home.jsx";
 import CreateTruck from "./containers/CreateTruck/CreateTruck";
 import EditTruck from "./containers/EditTruck/EditTruck";
 import Index from "./containers/Index/Index";
-import Login from "./containers/Login/Login";
+import UserLogin from "./containers/UserLogin/UserLogin";
 import Operator from "./containers/Operator/Operator";
 import TruckCityList from "./containers/TruckCityList/TruckCityList";
 
@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/CreateTruck" component={CreateTruck} />
         <Route exact path="/EditTruck" component={EditTruck} />
         <Route exact path="/Index" component={Index} />
-        <Route exact path="/Login" component={Login} />
+        <Route exact path="/UserLogin" component={UserLogin} />
         <Route exact path="/Operator" component={Operator} />
         <Route exact path="/TruckCityList" component={TruckCityList} />
       </div>
