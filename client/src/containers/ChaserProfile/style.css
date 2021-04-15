@@ -1,0 +1,31 @@
+.cont {
+  width: 70%;
+  background-color: hsl(182, 73%, 63%, 85%);
+  border-style: solid;
+  Border-color: #ff914d;
+  color: white;
+  padding: 25px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.img {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  height: 200px;
+  border-style: solid;
+  Border-color: #FF914D;
+}
+
+.float {
+  float:left;
+}
+button {
+  margin: 5px;
+}
+.profileName {
+  color: #ff914d;
+  text-shadow: -1px -1px 0 #5ce1e6, 1px -1px 0 #5ce1e6, -1px 1px 0 #5ce1e6,
+    1px 1px 0 #5ce1e6;
+}
